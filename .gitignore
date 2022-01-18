@@ -1,0 +1,8 @@
+/.mypy_cache
+/.vscode
+/day01.hs
+/day02.hs
+/day03.hs
+/day04.hs
+/__init__.py
+/__pycache__

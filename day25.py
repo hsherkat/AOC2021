@@ -66,17 +66,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# def update(self) -> "Trench":
-#         rights = self.move_right()
-#         new_grid = [row[:] for row in rights]
-#         for (i, j) in product(range(self.M), range(self.N)):
-#             if (
-#                 self[i][j] == "v"
-#                 and self[(i + 1) % self.M][j] == "."
-#                 and rights[(i + 1) % self.M][j] == "."
-#             ):
-#                 new_grid[i][j] = "."
-#                 new_grid[(i + 1) % self.M][j] = "v"
-#         return Trench(new_grid)
